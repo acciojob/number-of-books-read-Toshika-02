@@ -18,8 +18,14 @@ const library = [
 
 const numberOfBooksRead = () => {
   // write your code here
+	
+	if(readingStatus === true){
+		return library.count;
+	}else{
+		return false;
+	}
 };
 
 // Do not change the code below
 
-alert(numberOfBooksRead());
+//alert(numberOfBooksRead());
